@@ -1,5 +1,0 @@
-1	ethereum_eth.1.9obp0sw1g0hrcobsky24lzch9 693acd703b95	172.18.0.5
-2	ethereum_eth.2.p6qdnomtfn8dal3eg6x3jwctp 3ea81866adb8	172.18.0.3
-3	ethereum_eth.3.xhsba013pm3hg3n14gzzvfje2 91796f58425b	172.18.0.7
-4	ethereum_eth.4.stwhxaanh6zljhufpwc6sqrmb 1b1041887150	172.18.0.4
-5	ethereum_eth.5.ic5jozpzkznj3jg4svppdb4rf 47e359f23638	172.18.0.6
