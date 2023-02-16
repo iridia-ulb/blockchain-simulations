@@ -1,4 +1,4 @@
-# Run blockchain-based robot swarm experiments
+# Blockchain-based robot swarm experiments in simulation
 
 This repository contains the setup and control loops for running blockchain-based experiments in a simuluation using ARGoS, Docker containers, and Ethereum.
 
