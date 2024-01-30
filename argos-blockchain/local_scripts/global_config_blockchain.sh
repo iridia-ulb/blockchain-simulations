@@ -1,4 +1,3 @@
-#MAINFOLDER="$HOME/alex-stuff/geth-argos"
-MAINFOLDER="$HOME/geth-argos-docker-inside"
+MAINFOLDER="$HOME/blockchain-simulations"
 DOCKERBASE="$MAINFOLDER/argos-blockchain"
 ARGOSFOLDER="$MAINFOLDER/argos-python"
