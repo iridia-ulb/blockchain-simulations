@@ -1,9 +1,9 @@
 # [PATHS]
 export HOMEFOLDER=$HOME
-export MAINFOLDER="$HOMEFOLDER/geth-argos-docker-inside"
+export MAINFOLDER="$HOMEFOLDER/blockchain-simulations"
 export DOCKERFOLDER="$MAINFOLDER/argos-blockchain"
 export ARGOSFOLDER="$MAINFOLDER/argos-python"
-export EXPERIMENTFOLDER="$MAINFOLDER/FastFloor"
+export EXPERIMENTFOLDER="$MAINFOLDER/FloorEstimation"
 export BLOCKCHAINPATH="$HOMEFOLDER/eth_data_para/data"
 
 # [FILES]
@@ -58,7 +58,3 @@ export TIMELIMIT=100
 export SLEEPTIME=5
 export REPS=20
 export NOTES="Basic long-term experiment with 8 robots and a run-time of 600 minutes"
-
-
-
-

@@ -2,7 +2,8 @@
 
 This repository contains the setup and control loops for running blockchain-based experiments in a simuluation using ARGoS, Docker containers, and Ethereum.
 
+### Related paper:
 
-### Related papers:
+_[Robot swarms neutralize harmful Byzantine robots using a blockchain-based token economy](https://www.science.org/doi/10.1126/scirobotics.abm4636), V. Strobel, A. Pacheco, M. Dorigo. Science Robotics, 8(79): eabm4636, 2023.
 
-_“Robot swarms neutralize harmful Byzantine robots using a blockchain-based token economy“_, V. Strobel, A. Pacheco, M. Dorigo. Submitted to Science Robotics
+Free access to the paper via the website [https://iridia.ulb.ac.be/~vstrobel/](https://iridia.ulb.ac.be/~vstrobel/).

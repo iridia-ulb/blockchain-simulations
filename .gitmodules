@@ -1,0 +1,4 @@
+[submodule "argos-python"]
+	path = argos-python
+	url = git@github.com:KenN7/argos-python.git
+	branch = temp
