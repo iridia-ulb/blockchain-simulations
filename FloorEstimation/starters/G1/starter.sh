@@ -58,7 +58,7 @@ run() {
 			echo "Runing experiment ${1}"
 
 			# Perform experiment
-			. starter -r -sz
+			. starter -r -s
 
 			# Collect data
 			if [ $# -eq 1 ]; then

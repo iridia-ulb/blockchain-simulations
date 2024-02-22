@@ -29,7 +29,7 @@ echo "+-----------------------------------------------------------+"
 echo "Compiling the Smart Contract"
 
 # Compile smart contract
-solc --overwrite --abi --bin-runtime -o  "${EXPERIMENTFOLDER}/scs/build/" $SCFILE
+solc --evm-version "homestead" --overwrite --abi --bin-runtime -o  "${EXPERIMENTFOLDER}/scs/build/" $SCFILE
 cp -r "${EXPERIMENTFOLDER}/scs/build/." "${DOCKERFOLDER}/geth/deployed_contract/"
 
 BINDATA=`cat ${CONTRACTBIN}`

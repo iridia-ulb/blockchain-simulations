@@ -17,7 +17,7 @@
   <controllers>
 
    
-    <python_controller id="collab" library="/home/volker/blockchain-simulations/argos-python/build/libpy_controller_interface.so">
+    <python_controller id="collab" library="/home/volker/software/blockchain-simulations/argos-python/build/libpy_controller_interface.so">
       <!-- Normal actuator/sensor configuration follows -->
       <actuators>
         <epuck_rgb_leds implementation="default" medium="leds" />
@@ -34,16 +34,16 @@
       <!-- No required configuration -->
       
       <!-- Optionally, you can pass a script as a controller parameter: -->
-      <params script="/home/ubuntu/geth-argos-docker-inside/FastFloor/controllers/main.py"
+      <params script="/home/volker/software/blockchain-simulations/FloorEstimation/controllers/main.py"
       timeRate="1" />
     </python_controller>
 
 
   </controllers>
 
-    <loop_functions library="/home/volker/blockchain-simulations/argos-python/build/libpy_loop_function_interface.so"
+    <loop_functions library="/home/volker/software/blockchain-simulations/argos-python/build/libpy_loop_function_interface.so"
                   label="py_loop_function">
-    <params script="/home/volker/blockchain-simulations/FloorEstimation/loop_functions/loop_function_convergence.py"/>
+    <params script="/home/volker/software/blockchain-simulations/FloorEstimation/loop_functions/loop_function_convergence.py"/>
   </loop_functions>
 
 
@@ -52,7 +52,7 @@
   <!-- * Arena configuration * -->
   <!-- *********************** -->
   <arena size="1.9, 1.9, 5" center="0,0,0.5">
- <floor id="f" source="image" path="/home/volker/blockchain-simulations/FloorEstimation/experiments/floors/38.png" />
+ <floor id="f" source="image" path="/home/volker/software/blockchain-simulations/FloorEstimation/experiments/floors/38.png" />
     <box id="wall_north" size="1.9,0.10,0.1" movable="false">
       <body position="0,0.95,0" orientation="0,0,0" />
     </box>
@@ -103,7 +103,7 @@
     <!-- * To activate the Lua editor, just use the 'lua_editor' flag attribute * -->
     <!-- ************************************************************************ -->
   <qt-opengl autoplay="true">
-      <!-- <user_functions library="/home/volker/blockchain-simulations/argos-python/build/libpy_qtuser_function_interface.so" -->
+      <!-- <user_functions library="/home/volker/software/blockchain-simulations/argos-python/build/libpy_qtuser_function_interface.so" -->
       <!--                 label="py_qtuser_function" /> -->
     <camera>
       <placements>

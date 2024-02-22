@@ -1,6 +1,6 @@
 # [PATHS]
 export HOMEFOLDER=$HOME
-export MAINFOLDER="$HOMEFOLDER/blockchain-simulations"
+export MAINFOLDER="$HOMEFOLDER/software/blockchain-simulations"
 export DOCKERFOLDER="$MAINFOLDER/argos-blockchain"
 export ARGOSFOLDER="$MAINFOLDER/argos-python"
 export EXPERIMENTFOLDER="$MAINFOLDER/FloorEstimation"
@@ -33,7 +33,7 @@ export FLOORFILE=38.png
 export NUM1=24
 export NUMBYZANTINE=0
 export BYZANTINESWARMSTYLE=1
-export CON1="/home/ubuntu/geth-argos-docker-inside/FastFloor/controllers/main.py"
+export CON1="${EXPERIMENTFOLDER}/controllers/main.py"
 export MYLOOP="loop_function_convergence.py"
 
 

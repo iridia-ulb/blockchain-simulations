@@ -16,7 +16,8 @@ RUN cd /root &&\
     npm install solc@0.8.5 &&\
     npm install web3@1.3.4
 RUN pip3 install --upgrade pip
-RUN pip3 install web3 rpyc psutil
+RUN pip3 install -Iv "web3==5.23.0"
+RUN pip3 install rpyc psutil
 
 COPY ./scripts /root/
 COPY ./files/password /root/files/password
